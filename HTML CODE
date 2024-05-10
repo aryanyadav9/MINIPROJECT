@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGROBASEweb.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form> -->
+
+
+<!-- ################################################################################ -->
+    <!-- <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form> -->
+
+
+
+
+
+ <!--########################################### first page############################################## -->
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-vedio">
+            <source src="farm.mp4" type="video/mp4">
+        </video>
+
+
+
+
+
+        <nav>
+            <img src="image1.jpeg" class="logo">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/new.html" target="_blank">SIGN UP</a></li>
+                <li><a href="https://chat.openai.com" target="_blank">AI TOOL</a></li>
+                <li><a href="http://127.0.0.1:5500/lul/new2.html">LOGIN PAGE</a></li>
+                <!-- <li><a href="#">APPLICATION</a></li> -->
+                <li><a href="https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_cash%20crops_sugarcane.html" target="_blank">PLANT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+               
+            </ul>
+        </nav>
+        
+        
+        <div class="content">
+            <h1>AGROBASE</h1>
+            <a href="https://lens.google.com/search?p=AbrfA8r-wdMwvkV1abcbZzT-wiThQ3oekZ6NdtAVKEpfhFSm3JH6&plm=ChAIDxIMCN77wrEGEMCs%2BacCChAIGRIMCN77wrEGEOj3oagCChAIGhIMCN77wrEGEOjcqqgC">Search</a>
+        </div>
+
+
+
+    </div>
+<!--########################################### second page ################################################-->
+    <!-- <div> 
+        
+
+
+        <video autoplay loop muted plays-inline class="back-vedio1">
+            <source src="farm2.mp4" type="video/mp4">
+        </video>
+
+        
+        <nav1>
+            <img src="image1.jpeg " class="logo1">
+        </nav1>
+
+        <div class="content1">
+            <br>
+            <br>
+            <h1> Scientific Solution to identify and solve disease in plans/crops</h1>
+            <br>
+            
+            <p>Turn your Android phone into a mobile crop doctor: with just one photo,
+                AB appliction diagnoses infected crops and offers treatments for any
+                    pest,disease or nutrient deficiency problems.</p><br><br>
+            <h2> How To Use AB Website !!!</h2><br>
+            <ul>
+                <br>
+                <li>FIRST : Open your phone then search 'AGROBASASE.com' on your webbrowser</li><br>
+                <li>SECOND : Then click on the AGROLOGIST Button Present on the Home Page</li><br>
+                <li>THIRD : Then upload your crop photo and wait until you get an reply from AGROLOGIST</li><br>
+                <li>FORTH : AGROLOGIST provides you a safe and easy method to heal your crops again</li><br>
+            </ul>
+
+
+        </div>
+
+
+
+    
+    </div>
+     -->
+    <!--############################################## third page ##############################################-->
+    
+    
+    
+    
+    
+    <nav2>
+        <img src="image1.jpeg " class="logo2">
+    </nav2>
+    <div>
+        <!-- <img src="forest1.jpg" class="back-img"> -->
+        <img src="back4.jpg" class="back-img">
+    </div>
+    <div class="title-box">
+        <h1>Our Team</h1>
+        <p> <br> A team is defined as a group of people who perform interdependent tasks to work toward<br> <br> accomplishing a common mission or specific objective.<br><br>In our team we all play an equal role in creation of this project.<br><br></p>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="team-row">
+        <div class="profile-box">
+            <h3>Aryan Yadav</h3>
+            <small>Member.</small>
+            <img src="aryan.jpg">
+            <div class="social-box">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+
+            </div>
+            <p>Mearn developer <br>HTML<br>CSS</p>
+        
+        </div>
+        <div class="profile-box">
+            <h3>Ayush Raj</h3>
+            <small>Member</small>
+            <img src="ayush.png">
+            <div class="social-box">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+
+            </div>
+            <p>Web designer<br>CSS<br></p>
+        
+        </div>
+        <div class="profile-box">
+            <h3>Aryan Yadav</h3>
+            <small>Member</small>
+            <img src="yadav.png">
+            <div class="social-box">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+
+            </div>
+            <p>Android Developer<br>Java<br>Java Script</p>
+        
+        </div>
+        <div class="profile-box">
+            <h3>Priyanshu Mishra</h3>
+            <small>Member</small>
+            <img src="btla.png">
+            <div class="social-box">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+
+            </div>
+            <p>Machine Learning<br>SQL<br>Python</p>
+        
+        </div>
+
+    </div>
+
+
+<!-- ############################################# fourth page ############################################# -->
+<nav3>
+    <img src="image1.jpeg " class="logo2">
+</nav3>
+<div>
+    <img src="back4.jpg" class="back-img3">
+</div>
+
+<div id="wrapper">
+    <div class="container">
+        <h1>Various Type Of Diseases</h1>
+        <div class="disease">
+
+            <figure class="card">
+                <img src="disease1.jpeg" alt="">
+                <figcaption>DISEASE 1 - NECROSIS <br><br>Cause - It is a death of tissue and organs due to parasitic activity.<br><br> Solution - Use scrolls or any other method to revive him and thus remove his Necrotic Aura.</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="disease2.jpeg" alt="">
+                <figcaption>DISEASE 2</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="disease3.jpeg" alt="">
+                <figcaption>DISEASE 3</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="disease4.jpeg" alt="">
+                <figcaption>DISEASE 4</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="disease5.jpeg" alt="">
+                <figcaption>DISEASE 5</figcaption>
+                
+            </figure>
+            <figure class="card">
+                <img src="disease6.jpeg" alt="">
+                <figcaption>DISEASE 6</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="disease7.jpeg" alt="">
+                <figcaption>DISEASE 7</figcaption>
+            </figure>   
+            <figure class="card">
+                <img src="disease2.jpeg" alt="">
+                <figcaption>DISEASE 8</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="disease1.jpeg" alt="">
+                <figcaption>DISEASE 9</figcaption>
+            </figure>
+          
+
+        </div>
+    </div>
+</div>
+ <!-- <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form> -->
+    
+</body>
+</html>
