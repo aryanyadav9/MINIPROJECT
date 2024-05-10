@@ -1,0 +1,556 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    display:flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.hero{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position:relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left:0;
+    padding:20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 150px;
+    height:120px;
+
+    
+
+
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:40px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+}
+.content{
+    text-align: center;
+
+}
+.content h1{
+    font-size: 160px;
+    color:white;
+    font-weight:600;
+
+}
+.content a{
+    text-decoration: none;
+    display:inline-block;
+    color:white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.back-vedio{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: -6;
+}
+@media(min-aspect-ratio: 16/9){
+    .back-vedio{
+        width:100%;
+        height:auto;
+
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-vedio{
+        width:auto;
+        height:100%;
+
+    }
+}
+/* ##################################### second page editing ############################################ */
+/*nav1 .logo1{
+    width: 150px;
+    height:120px;
+    margin-top:2rem;
+    margin-left:10rem;
+    
+}
+.back-vedio1{
+    position: absolute;
+    right:0;
+  
+
+    /* bottom:0; */
+    /* z-index: -10; */
+/* } */
+
+
+/* @media(min-aspect-ratio: 16/9){
+    .back-vedio1{
+        width:100%;
+        height:auto;
+
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-vedio1{
+        width:auto;
+        height:100%;
+
+    } */
+/* } */
+/* .content1 h1{
+    font-size: 80px;
+    color:black;
+    font-weight:550;
+    text-decoration-line: underline;
+    
+}
+.content1 p{
+    font-size: 40px;
+    color:white;
+    font-weight:300;
+    text-decoration-line: underline;
+} */
+/* .content1 h2{
+    font-size: 80px;
+    color:black;
+    font-weight:550;
+    text-decoration-line: underline;
+}
+.content1 ul{
+    text-decoration: none;
+    display:inline-block;
+    color:white;
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-decoration-line: underline;
+} */
+/* ###########################################third page ##################################################*/
+
+/* .back-img{
+    position:absolute;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+    /* display:flex; */
+
+ 
+.back-img{
+    z-index:-5;
+    object-fit: cover;
+    position:absolute;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+
+}
+
+nav2 .logo2{
+    width: 150px;
+    height:120px;
+    /* margin-top:3rem; */
+    margin-top:2rem;
+    margin-bottom: 0rem;
+    margin-left:10rem;
+    background:transparent;
+    position:absolute;
+}
+.title-box h1{
+    font-size: 100px;
+    color:wheat;
+    text-decoration-line: underline;
+    font-weight:800;
+   
+    
+    
+
+    
+}
+    
+.title-box{
+    
+    /* background:rgb(239, 230, 230); */
+    font-family: sans-serif;
+    text-align: center;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    /* margin: 100px auto 50px; */
+}
+.title-box p{
+    margin-top: 10px;
+    line-height: 25px;
+    color:#efefef;
+    text-decoration-line: underline;
+    font-weight:700;
+    font-size: xx-large;
+    
+}
+.profile-box{
+    width:280px;
+    height: 280px;
+    background:rgb(218, 211, 211);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 10px 10px rgba(115,193,255,0.1);
+    padding: 20px;
+    position: relative;
+    transition: background 0.5s;
+    
+}
+.profile-box img {
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+    transition: .5s;
+
+}
+.profile-box h3{
+    margin-top:25px ;
+    margin-bottom: 5px;
+    color:#2196f3;
+
+}
+small{
+    color:green;
+
+}
+.social-box{
+    background: #2196f3;
+    margin: 60px auto 20px;
+    text-align:center;
+    border-radius:10px;
+}
+.social-box .fa{
+    margin:5px;
+    color:white;
+    cursor:pointer;
+}
+.profile-box p{
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-align: center;
+    line-height:24px ;
+    color:#555
+    
+}
+.team-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:85%;
+    margin:auto;
+
+}
+.profile-box img:hover{
+    width: 240px;
+}
+.profile-box:hover{
+    background:#2196f3;
+}
+.profile-box:hover h3{
+    color:white;
+}
+.profile-box:hover p{
+    color:#efefef;
+}
+.profile-box:hover small{
+    color:#efefef;
+}
+.profile-box:hover .social-box{
+    background:#fff;
+}
+.profile-box:hover .social-box .fa{
+    color:#2196f3;
+}
+/* ############################################### fourth page ############################################## */
+nav3 .logo2{
+    width: 150px;
+    height:120px;
+    /* margin-top:3rem; */
+    margin-top:2rem;
+    margin-bottom: 0rem;
+    margin-left:10rem;
+    background:transparent;
+    position:absolute;
+    display: flex;
+}
+.back-img3{
+    z-index:-5;
+    object-fit: cover;
+    position:absolute;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 100vw;
+    width: 100%;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x:hidden;
+  
+}
+.container{
+    height: 100%;
+    max-height: 1200px;
+    margin:0 auto;  
+    padding:20px;
+    /* z-index: -1; */
+}
+.container h1{
+    margin: 100px 0;
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 5rem;
+    z-index: -1;
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration-line: underline;
+    font-weight:800;
+    color:wheat;
+
+}
+.disease{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position: absolute;
+}
+.card{
+    width: 30%;
+    overflow:hidden;
+    /* height: auto; */
+    border-radius: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    justify-content: center;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card img{
+    width:100%;
+    height:100%;
+    filter: grayscale(100%);
+    box-shadow: 0 0 20px  #333;
+}
+.card:hover {
+    transform: scale(1.03);
+    transition: 2s;
+    filter: drop-shadow(0 0 10px #333);
+}
+
+.card:hover img {
+    filter: grayscale(0);
+}
+
+.card figcaption{
+    position:absolute;
+    bottom: 0;
+    width: fit-content;
+    height: 16%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    color: #fff;
+    padding: 25px;
+    opacity: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.card:hover figcaption{
+    opacity: 1;
+    bottom: 40%;
+    transform: translateY(-50%) rotate(360deg);
+    transition: 1s;
+}
